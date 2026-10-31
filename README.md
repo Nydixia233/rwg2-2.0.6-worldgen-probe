@@ -2,6 +2,8 @@
 
 This bundle reproduces the algorithm-level observations used in the issue drafts.
 
+Public repository: [https://github.com/Nydixia233/rwg2-2.0.6-worldgen-probe](https://github.com/Nydixia233/rwg2-2.0.6-worldgen-probe)
+
 ## Contents
 
 - `IssueReviewProbe.java` — review probe entry point (6 assertions: lava vent, surface cavity, Y62 floor).
