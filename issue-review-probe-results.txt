@@ -1,0 +1,8 @@
+PASS sandStart=65: new unsupported sand at Y67 after funnel
+PASS original six-layer fixture: support branch never entered (top+1 was stone)
+Y62..70=[air, air, air, air, air, sand, air, air, air]
+PASS sandStart=63: new unsupported sand at Y67 after funnel
+PASS eight-layer fixture: support at top=62 remains intact after funnel
+Y62..70=[stone, air, air, air, air, sand, air, air, air]
+PASS same enclosed cavity: floor Y70 is grass, ceiling underside Y81 remains stone
+PASS a solid floor at Y62 takes the top-block branch; actual river solid bed is <=61

@@ -1,0 +1,11 @@
+PASS generic enclosed cavity at Y71..80: hidden floor Y70 painted grass
+PASS actual river-like floor<=62: bed Y57 painted dirt, not grass
+PASS cliff: same +10 external step is invisible at local x15, visible at x14
+PASS JungleFat returned true after overwriting stone: 71; trunk replaced stone at 1,70,1
+PASS JungleFat returned true despite out-of-height writes: 1337
+PASS BigTree check floor differs from placement rounding: missed stone at 2,66,2 overwritten
+PASS BigTree defaults sampled without supplied seed: observed sizes [7, 8, 9, 10, 11, 12, 13]
+PASS JungleFat negative coordinate -.5 truncates to 0 instead of floor -1
+PASS lava funnel leaves soil undersides after initial support pass: 59; first distance=8.1, y=67
+PASS lava funnel leaves unsupported sand after BlockFalling support pass: 59
+PASS JungleFat at population edge x=z=23 writes beyond chunks [0..1]^2: [1,0, 1,1, 2,1]
